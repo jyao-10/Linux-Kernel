@@ -1,0 +1,24 @@
+# Linux-Kernel
+Simple Linux Operating System Kernel
+
+createfs
+    This program takes a flat source directory (i.e. no subdirectories
+    in the source directory) and creates a filesystem image in the
+    format specified for this MP.  Run it with no parameters to see
+    usage.
+
+elfconvert
+    This program takes a 32-bit ELF (Executable and Linking Format) file
+    - the standard executable type on Linux - and converts it to the
+    executable format specified for this MP.  The output filename is
+    <exename>.converted.
+
+README
+    This file.
+
+kernel/
+    This is the directory that contains the source code for your
+    operating system.  Currently, a skeleton is provided that will build
+    and boot you into protected mode, printing out various boot
+    parameters.  Read the INSTALL file in that directory for
+    instructions on how to set up the bootloader to boot this OS.
